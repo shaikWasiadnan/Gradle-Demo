@@ -1,7 +1,8 @@
 ///Fatjar:
+
 task fatJar(type: Jar) {
     manifest {
-        attributes 'Main-Class': 'org.example.Main'(Name of main file)
+        attributes 'Main-Class': 'org.example.Main'
     }
 
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
