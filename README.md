@@ -25,3 +25,6 @@ jar{
   attributes ('Main-Class': 'org.example.Main' (name of main class)
  }
 }
+
+
+/// Every time before building jar Clear the previous jar file with command  ./gradlew clean
